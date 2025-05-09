@@ -93,8 +93,8 @@ class ResultState(rx.State):
             self.step_name = steps[0]
             self.progress_value = 0
             self.done = ""
-            self.video = video_path[0][2:]
-            self.image = image_path[0][2:]
+            self.video = video_path[0]
+            self.image = image_path[0]
             self.digit_xmin = xmin
             self.digit_xmax = xmax
             self.digit_ymin = ymin
