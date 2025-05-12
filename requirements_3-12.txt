@@ -1,0 +1,286 @@
+aiohttp
+albumentations
+av
+easydict
+ffmpeg
+fiftyone
+fqdn
+isoduration
+jaraco.collections
+jsonpointer
+jupyterlab
+lap
+lpips
+moviepy
+omegaconf
+pip-chill
+pytorch-lightning
+reflex-pyplot
+tinycss2
+torchinfo
+ultralytics
+uri-template
+wavemix
+webcolors
+webdataset
+# aiofiles # Installed as dependency for fiftyone
+# aiohappyeyeballs # Installed as dependency for aiohttp
+# aiosignal # Installed as dependency for aiohttp
+# albucore # Installed as dependency for albumentations
+# alembic # Installed as dependency for reflex
+# annotated-types # Installed as dependency for pydantic
+# antlr4-python3-runtime # Installed as dependency for omegaconf
+# anyio # Installed as dependency for httpx, jupyter-server, starlette
+# argcomplete # Installed as dependency for fiftyone, voxel51-eta
+# argon2-cffi # Installed as dependency for jupyter-server
+# argon2-cffi-bindings # Installed as dependency for argon2-cffi
+# arrow # Installed as dependency for isoduration
+# asttokens # Installed as dependency for stack-data
+# async-lru # Installed as dependency for jupyterlab
+# async-timeout # Installed as dependency for aiohttp, redis
+# attrs # Installed as dependency for aiohttp, jsonlines, jsonschema, referencing
+# autocommand # Installed as dependency for jaraco.text
+# babel # Installed as dependency for jupyterlab-server
+# backports.tarfile # Installed as dependency for jaraco.context
+# beautifulsoup4 # Installed as dependency for fiftyone, nbconvert
+# bidict # Installed as dependency for python-socketio
+# bleach # Installed as dependency for nbconvert
+# boto3 # Installed as dependency for fiftyone
+# botocore # Installed as dependency for boto3, s3transfer
+# braceexpand # Installed as dependency for webdataset
+# brotli # Installed as dependency for py7zr
+# build # Installed as dependency for reflex
+# cachetools # Installed as dependency for fiftyone
+# certifi # Installed as dependency for httpcore, httpx, requests
+# cffi # Installed as dependency for argon2-cffi-bindings, cryptography
+# charset-normalizer # Installed as dependency for reflex, reflex-hosting-cli, requests
+# click # Installed as dependency for typer, uvicorn
+# comm # Installed as dependency for ipykernel
+# contourpy # Installed as dependency for matplotlib
+# cryptography # Installed as dependency for secretstorage
+# cycler # Installed as dependency for matplotlib
+# dacite # Installed as dependency for fiftyone
+# debugpy # Installed as dependency for ipykernel
+# decorator # Installed as dependency for ipython, moviepy
+# defusedxml # Installed as dependency for nbconvert
+# deprecated # Installed as dependency for fiftyone
+# dill # Installed as dependency for voxel51-eta
+# distro # Installed as dependency for reflex
+# dnspython # Installed as dependency for pymongo
+# docutils # Installed as dependency for readme-renderer
+# einops # Installed as dependency for wavemix
+# exceptiongroup # Installed as dependency for anyio, hypercorn, ipython, taskgroup
+# executing # Installed as dependency for stack-data
+# fastapi # Installed as dependency for reflex
+# fastjsonschema # Installed as dependency for nbformat
+# fiftyone-brain # Installed as dependency for fiftyone
+# fiftyone-db # Installed as dependency for fiftyone
+# filelock # Installed as dependency for torch, triton
+# fonttools # Installed as dependency for matplotlib
+# frozenlist # Installed as dependency for aiohttp, aiosignal
+# fsspec # Installed as dependency for pytorch-lightning, torch
+# ftfy # Installed as dependency for fiftyone
+# future # Installed as dependency for voxel51-eta
+# glob2 # Installed as dependency for voxel51-eta
+# graphql-core # Installed as dependency for strawberry-graphql
+# greenlet # Installed as dependency for sqlalchemy
+# gunicorn # Installed as dependency for reflex
+# h11 # Installed as dependency for httpcore, hypercorn, uvicorn, wsproto
+# h2 # Installed as dependency for hypercorn
+# hpack # Installed as dependency for h2
+# httpcore # Installed as dependency for httpx
+# httpx # Installed as dependency for jupyterlab, reflex, reflex-hosting-cli, universal-analytics-python3
+# humanize # Installed as dependency for fiftyone
+# hypercorn # Installed as dependency for fiftyone
+# hyperframe # Installed as dependency for h2
+# idna # Installed as dependency for anyio, httpx, requests, yarl
+# imageio # Installed as dependency for moviepy, scikit-image
+# imageio-ffmpeg # Installed as dependency for moviepy
+# importlib-metadata # Installed as dependency for keyring
+# inflate64 # Installed as dependency for py7zr
+# inflect # Installed as dependency for jaraco.text
+# ipykernel # Installed as dependency for jupyterlab
+# ipython # Installed as dependency for ipykernel
+# jaraco.classes # Installed as dependency for keyring
+# jaraco.context # Installed as dependency for jaraco.text, keyring
+# jaraco.functools # Installed as dependency for jaraco.text, keyring
+# jaraco.text # Installed as dependency for jaraco.collections
+# jedi # Installed as dependency for ipython
+# jeepney # Installed as dependency for keyring, secretstorage
+# jinja2 # Installed as dependency for fiftyone, jupyter-server, jupyterlab, jupyterlab-server, nbconvert, reflex, starlette-admin, torch
+# jmespath # Installed as dependency for boto3, botocore
+# joblib # Installed as dependency for scikit-learn
+# json5 # Installed as dependency for jupyterlab-server
+# jsonlines # Installed as dependency for voxel51-eta
+# jsonschema # Installed as dependency for jupyter-events, jupyterlab-server, nbformat
+# jsonschema-specifications # Installed as dependency for jsonschema
+# jupyter-client # Installed as dependency for ipykernel, jupyter-server, nbclient
+# jupyter-core # Installed as dependency for ipykernel, jupyter-client, jupyter-server, jupyterlab, nbclient, nbconvert, nbformat
+# jupyter-events # Installed as dependency for jupyter-server
+# jupyter-lsp # Installed as dependency for jupyterlab
+# jupyter-server # Installed as dependency for jupyter-lsp, jupyterlab, jupyterlab-server, notebook-shim
+# jupyter-server-terminals # Installed as dependency for jupyter-server
+# jupyterlab-pygments # Installed as dependency for nbconvert
+# jupyterlab-server # Installed as dependency for jupyterlab
+# kaleido # Installed as dependency for fiftyone
+# keyring # Installed as dependency for twine
+# kiwisolver # Installed as dependency for matplotlib
+# lazy-loader # Installed as dependency for reflex, scikit-image
+# lightning-utilities # Installed as dependency for pytorch-lightning, torchmetrics
+# mako # Installed as dependency for alembic
+# markdown-it-py # Installed as dependency for rich
+# markupsafe # Installed as dependency for jinja2, mako, nbconvert
+# matplotlib # Installed as dependency for fiftyone, reflex-pyplot, seaborn, ultralytics
+# matplotlib-inline # Installed as dependency for ipykernel, ipython
+# mdurl # Installed as dependency for markdown-it-py
+# mistune # Installed as dependency for nbconvert
+# mongoengine # Installed as dependency for fiftyone
+# more-itertools # Installed as dependency for inflect, jaraco.classes, jaraco.functools, jaraco.text
+# motor # Installed as dependency for fiftyone
+# mpmath # Installed as dependency for sympy
+# multidict # Installed as dependency for aiohttp, yarl
+# multivolumefile # Installed as dependency for py7zr
+# nbclient # Installed as dependency for nbconvert
+# nbconvert # Installed as dependency for jupyter-server
+# nbformat # Installed as dependency for jupyter-server, nbclient, nbconvert
+# nest-asyncio # Installed as dependency for ipykernel
+# networkx # Installed as dependency for scikit-image, torch
+# nh3 # Installed as dependency for readme-renderer
+# notebook-shim # Installed as dependency for jupyterlab
+# numpy # Installed as dependency for albucore, albumentations, contourpy, fiftyone, fiftyone-brain, imageio, lap, lpips, matplotlib, moviepy, opencv-python, opencv-python-headless, pandas, pywavelets, scikit-image, scikit-learn, scipy, seaborn, tifffile, torchmetrics, torchvision, ultralytics, ultralytics-thop, voxel51-eta, wavemix, webdataset
+# nvidia-cublas-cu12 # Installed as dependency for nvidia-cudnn-cu12, nvidia-cusolver-cu12, torch
+# nvidia-cuda-cupti-cu12 # Installed as dependency for torch
+# nvidia-cuda-nvrtc-cu12 # Installed as dependency for torch
+# nvidia-cuda-runtime-cu12 # Installed as dependency for torch
+# nvidia-cudnn-cu12 # Installed as dependency for torch
+# nvidia-cufft-cu12 # Installed as dependency for torch
+# nvidia-curand-cu12 # Installed as dependency for torch
+# nvidia-cusolver-cu12 # Installed as dependency for torch
+# nvidia-cusparse-cu12 # Installed as dependency for nvidia-cusolver-cu12, torch
+# nvidia-nccl-cu12 # Installed as dependency for torch
+# nvidia-nvjitlink-cu12 # Installed as dependency for nvidia-cusolver-cu12, nvidia-cusparse-cu12, torch
+# nvidia-nvtx-cu12 # Installed as dependency for torch
+# opencv-python # Installed as dependency for ultralytics
+# opencv-python-headless # Installed as dependency for albucore, albumentations, fiftyone, voxel51-eta
+# overrides # Installed as dependency for jupyter-server
+# packaging # Installed as dependency for build, fiftyone, gunicorn, ipykernel, jupyter-server, jupyterlab, jupyterlab-server, lazy-loader, lightning-utilities, matplotlib, nbconvert, plotly, pytorch-lightning, reflex, scikit-image, torchmetrics, twine, voxel51-eta
+# pandas # Installed as dependency for fiftyone, seaborn, ultralytics
+# pandocfilters # Installed as dependency for nbconvert
+# parso # Installed as dependency for jedi
+# pexpect # Installed as dependency for ipython
+# pillow # Installed as dependency for fiftyone, imageio, matplotlib, moviepy, scikit-image, torchvision, ultralytics, voxel51-eta
+# pipdeptree # Installed as dependency for reflex-hosting-cli
+# pkginfo # Installed as dependency for twine
+# platformdirs # Installed as dependency for jupyter-core, reflex, reflex-hosting-cli
+# plotly # Installed as dependency for fiftyone
+# pprintpp # Installed as dependency for fiftyone
+# priority # Installed as dependency for hypercorn
+# proglog # Installed as dependency for moviepy
+# prometheus-client # Installed as dependency for jupyter-server
+# prompt-toolkit # Installed as dependency for ipython
+# propcache # Installed as dependency for aiohttp, yarl
+# psutil # Installed as dependency for fiftyone, ipykernel, py7zr, reflex, ultralytics
+# ptyprocess # Installed as dependency for pexpect, terminado
+# pure-eval # Installed as dependency for stack-data
+# py-cpuinfo # Installed as dependency for ultralytics
+# py7zr # Installed as dependency for voxel51-eta
+# pybcj # Installed as dependency for py7zr
+# pycparser # Installed as dependency for cffi
+# pycryptodomex # Installed as dependency for py7zr
+# pydantic # Installed as dependency for albumentations, fastapi, reflex, reflex-hosting-cli, sqlmodel
+# pydantic-core # Installed as dependency for pydantic
+# pydash # Installed as dependency for fiftyone
+# pygments # Installed as dependency for ipython, nbconvert, readme-renderer, rich
+# pymongo # Installed as dependency for fiftyone, mongoengine, motor
+# pyparsing # Installed as dependency for matplotlib
+# pyppmd # Installed as dependency for py7zr
+# pyproject-hooks # Installed as dependency for build
+# python-dateutil # Installed as dependency for arrow, botocore, jupyter-client, matplotlib, pandas, reflex-hosting-cli, strawberry-graphql, voxel51-eta
+# python-dotenv # Installed as dependency for moviepy
+# python-engineio # Installed as dependency for python-socketio, reflex
+# python-json-logger # Installed as dependency for jupyter-events
+# python-multipart # Installed as dependency for reflex, starlette-admin
+# python-socketio # Installed as dependency for reflex
+# pytz # Installed as dependency for fiftyone, pandas, voxel51-eta
+# pywavelets # Installed as dependency for wavemix
+# pyyaml # Installed as dependency for albumentations, fiftyone, jupyter-events, omegaconf, pytorch-lightning, reflex-hosting-cli, ultralytics, webdataset
+# pyzmq # Installed as dependency for ipykernel, jupyter-client, jupyter-server
+# pyzstd # Installed as dependency for py7zr
+# rarfile # Installed as dependency for voxel51-eta
+# readme-renderer # Installed as dependency for twine
+# redis # Installed as dependency for reflex
+# referencing # Installed as dependency for jsonschema, jsonschema-specifications, jupyter-events
+# reflex # Installed as dependency for reflex-chakra
+# reflex-chakra # Installed as dependency for reflex
+# reflex-hosting-cli # Installed as dependency for reflex
+# regex # Installed as dependency for fiftyone
+# requests # Installed as dependency for jupyterlab-server, requests-toolbelt, twine, ultralytics, voxel51-eta
+# requests-toolbelt # Installed as dependency for twine
+# retrying # Installed as dependency for fiftyone, voxel51-eta
+# rfc3339-validator # Installed as dependency for jupyter-events
+# rfc3986 # Installed as dependency for twine
+# rfc3986-validator # Installed as dependency for jupyter-events
+# rich # Installed as dependency for reflex, reflex-hosting-cli, twine, typer
+# rpds-py # Installed as dependency for jsonschema, referencing
+# rtree # Installed as dependency for fiftyone
+# s3transfer # Installed as dependency for boto3
+# scikit-image # Installed as dependency for fiftyone, voxel51-eta
+# scikit-learn # Installed as dependency for fiftyone, fiftyone-brain
+# scipy # Installed as dependency for albumentations, fiftyone, fiftyone-brain, lpips, scikit-image, scikit-learn, ultralytics
+# seaborn # Installed as dependency for ultralytics
+# secretstorage # Installed as dependency for keyring
+# send2trash # Installed as dependency for jupyter-server
+# shellingham # Installed as dependency for typer
+# simple-websocket # Installed as dependency for python-engineio
+# simsimd # Installed as dependency for albucore
+# six # Installed as dependency for python-dateutil, retrying, rfc3339-validator, voxel51-eta
+# sniffio # Installed as dependency for anyio
+# sortedcontainers # Installed as dependency for voxel51-eta
+# soupsieve # Installed as dependency for beautifulsoup4
+# sqlalchemy # Installed as dependency for alembic, sqlmodel
+# sqlmodel # Installed as dependency for reflex
+# sse-starlette # Installed as dependency for fiftyone
+# sseclient-py # Installed as dependency for fiftyone
+# stack-data # Installed as dependency for ipython
+# starlette # Installed as dependency for fastapi, fiftyone, sse-starlette, starlette-admin
+# starlette-admin # Installed as dependency for reflex
+# strawberry-graphql # Installed as dependency for fiftyone
+# stringzilla # Installed as dependency for albucore
+# sympy # Installed as dependency for torch
+# tabulate # Installed as dependency for fiftyone, reflex-hosting-cli, voxel51-eta
+# taskgroup # Installed as dependency for hypercorn
+# tenacity # Installed as dependency for plotly
+# terminado # Installed as dependency for jupyter-server, jupyter-server-terminals
+# texttable # Installed as dependency for py7zr
+# threadpoolctl # Installed as dependency for scikit-learn
+# tifffile # Installed as dependency for scikit-image
+# tomli # Installed as dependency for build, hypercorn, jupyterlab
+# tomlkit # Installed as dependency for reflex
+# torch # Installed as dependency for lpips, pytorch-lightning, torchmetrics, torchvision, ultralytics, ultralytics-thop, wavemix
+# torchmetrics # Installed as dependency for pytorch-lightning
+# torchvision # Installed as dependency for lpips, ultralytics, wavemix
+# tornado # Installed as dependency for ipykernel, jupyter-client, jupyter-server, jupyterlab, terminado
+# tqdm # Installed as dependency for lpips, proglog, pytorch-lightning, ultralytics
+# traitlets # Installed as dependency for comm, ipykernel, ipython, jupyter-client, jupyter-core, jupyter-events, jupyter-server, jupyterlab, matplotlib-inline, nbclient, nbconvert, nbformat
+# triton # Installed as dependency for torch
+# twine # Installed as dependency for reflex
+# typeguard # Installed as dependency for inflect
+# typer # Installed as dependency for reflex, reflex-hosting-cli
+# types-python-dateutil # Installed as dependency for arrow
+# typing-extensions # Installed as dependency for alembic, anyio, async-lru, exceptiongroup, fastapi, hypercorn, ipython, lightning-utilities, mistune, multidict, pydantic, pydantic-core, pydash, pytorch-lightning, reflex, rich, sqlalchemy, strawberry-graphql, taskgroup, torch, typeguard, typer, uvicorn
+# tzdata # Installed as dependency for pandas
+# tzlocal # Installed as dependency for voxel51-eta
+# ultralytics-thop # Installed as dependency for ultralytics
+# universal-analytics-python3 # Installed as dependency for fiftyone
+# urllib3 # Installed as dependency for botocore, requests, twine, voxel51-eta
+# uvicorn # Installed as dependency for reflex
+# voxel51-eta # Installed as dependency for fiftyone
+# wcwidth # Installed as dependency for ftfy, prompt-toolkit
+# webencodings # Installed as dependency for bleach, tinycss2
+# websocket-client # Installed as dependency for jupyter-server
+# websockets # Installed as dependency for reflex-hosting-cli
+# wrapt # Installed as dependency for deprecated, reflex
+# wsproto # Installed as dependency for hypercorn, simple-websocket
+# xmltodict # Installed as dependency for fiftyone
+# yarl # Installed as dependency for aiohttp
+# zipp # Installed as dependency for importlib-metadata
