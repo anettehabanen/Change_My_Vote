@@ -2,20 +2,36 @@
 
 This is the Reflex application for my master thesis called "Deep Fakes for Paper Vote Privacy Defence". The main project can be found here: https://github.com/anettehabanen/Deep_Fakes_for_Paper_Vote_Privacy_Defence
 
-First clone the repository:
+### Clone the repository:
 ```
 git clone https://github.com/anettehabanen/Change_My_Vote
 cd Change_My_Vote
 ```
 
-Then create an environment and install requirements:
+### Python versions
+
+1. If you have Python version 3.11 or lower
+
 ```
-python -m venv reflex_venv
-source reflex_venv/bin/activate
-pip install -r requirements.txt
+python3 -m venv reflex_venv   # Create an environment
+source reflex_venv/bin/activate   # Activate the environment
+pip install -r requirements_3-11.txt   # Install the requirements
 ```
 
-To run the project:
+2. If you have Python version 3.12 or higher
+
+```
+python3 -m venv reflex_venv   # Create an environment
+source reflex_venv/bin/activate   # Activate the environment
+pip install -r requirements_3-12.txt   # Install the requirements
+```
+
+To check the Python version:
+```
+python --version
+```
+
+### Run the project:
 ```
 reflex run
 ```
