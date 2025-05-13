@@ -16,6 +16,7 @@ moviepy
 numpy==1.26.4
 omegaconf
 pytorch-lightning
+reflex==0.6.8
 reflex-pyplot
 taskgroup
 tinycss2
