@@ -449,9 +449,9 @@ def wavepaint_predictions(square_digits_path, wavepaint_predict, wavepaint_weigh
 
     print("Calling the wavepaint model")
 
-    os.system('python %s -model_path %s -test_data %s -generated_img %s -masked_img %s' % (wavepaint_predict, wavepaint_weights, square_digits_path+"/0", generated_img, masked_img))
-    os.system('python %s -model_path %s -test_data %s -generated_img %s -masked_img %s' % (wavepaint_predict, wavepaint_weights, square_digits_path+"/1", generated_img, masked_img))
-    os.system('python %s -model_path %s -test_data %s -generated_img %s -masked_img %s' % (wavepaint_predict, wavepaint_weights, square_digits_path+"/2", generated_img, masked_img))
+    os.system('python3 %s -model_path %s -test_data %s -generated_img %s -masked_img %s' % (wavepaint_predict, wavepaint_weights, square_digits_path+"/0", generated_img, masked_img))
+    os.system('python3 %s -model_path %s -test_data %s -generated_img %s -masked_img %s' % (wavepaint_predict, wavepaint_weights, square_digits_path+"/1", generated_img, masked_img))
+    os.system('python3 %s -model_path %s -test_data %s -generated_img %s -masked_img %s' % (wavepaint_predict, wavepaint_weights, square_digits_path+"/2", generated_img, masked_img))
  
     print("After predictions")
     

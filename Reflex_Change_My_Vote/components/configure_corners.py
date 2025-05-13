@@ -29,36 +29,44 @@ class SlidersState(rx.State):
     Dy: int = 360
 
     def set_Ax(self, value: str):
-        self.Ax = int(value)
-        FrameState.drawing(FrameState.image, self.Ax, self.Ay, self.Bx, self.By, self.Cx, self.Cy, self.Dx, self.Dy)
+        if value != '':
+            self.Ax = int(value)
+            FrameState.drawing(FrameState.image, self.Ax, self.Ay, self.Bx, self.By, self.Cx, self.Cy, self.Dx, self.Dy)
     
     def set_Ay(self, value: str):
-        self.Ay = int(value)
-        FrameState.drawing(FrameState.image, self.Ax, self.Ay, self.Bx, self.By, self.Cx, self.Cy, self.Dx, self.Dy)
+        if value != '':
+            self.Ay = int(value)
+            FrameState.drawing(FrameState.image, self.Ax, self.Ay, self.Bx, self.By, self.Cx, self.Cy, self.Dx, self.Dy)
 
     def set_Bx(self, value: str):
-        self.Bx = int(value)
-        FrameState.drawing(FrameState.image, self.Ax, self.Ay, self.Bx, self.By, self.Cx, self.Cy, self.Dx, self.Dy)
+        if value != '':
+            self.Bx = int(value)
+            FrameState.drawing(FrameState.image, self.Ax, self.Ay, self.Bx, self.By, self.Cx, self.Cy, self.Dx, self.Dy)
 
     def set_By(self, value: str):
-        self.By = int(value)
-        FrameState.drawing(FrameState.image, self.Ax, self.Ay, self.Bx, self.By, self.Cx, self.Cy, self.Dx, self.Dy)
+        if value != '':
+            self.By = int(value)
+            FrameState.drawing(FrameState.image, self.Ax, self.Ay, self.Bx, self.By, self.Cx, self.Cy, self.Dx, self.Dy)
 
     def set_Cx(self, value: str):
-        self.Cx = int(value)
-        FrameState.drawing(FrameState.image, self.Ax, self.Ay, self.Bx, self.By, self.Cx, self.Cy, self.Dx, self.Dy)
+        if value != '':
+            self.Cx = int(value)
+            FrameState.drawing(FrameState.image, self.Ax, self.Ay, self.Bx, self.By, self.Cx, self.Cy, self.Dx, self.Dy)
 
     def set_Cy(self, value: str):
-        self.Cy = int(value)
-        FrameState.drawing(FrameState.image, self.Ax, self.Ay, self.Bx, self.By, self.Cx, self.Cy, self.Dx, self.Dy)
+        if value != '':
+            self.Cy = int(value)
+            FrameState.drawing(FrameState.image, self.Ax, self.Ay, self.Bx, self.By, self.Cx, self.Cy, self.Dx, self.Dy)
 
     def set_Dx(self, value: str):
-        self.Dx = int(value)
-        FrameState.drawing(FrameState.image, self.Ax, self.Ay, self.Bx, self.By, self.Cx, self.Cy, self.Dx, self.Dy)
+        if value != '':
+            self.Dx = int(value)
+            FrameState.drawing(FrameState.image, self.Ax, self.Ay, self.Bx, self.By, self.Cx, self.Cy, self.Dx, self.Dy)
 
     def set_Dy(self, value: str):
-        self.Dy = int(value)
-        FrameState.drawing(FrameState.image, self.Ax, self.Ay, self.Bx, self.By, self.Cx, self.Cy, self.Dx, self.Dy)
+        if value != '':
+            self.Dy = int(value)
+            FrameState.drawing(FrameState.image, self.Ax, self.Ay, self.Bx, self.By, self.Cx, self.Cy, self.Dx, self.Dy)
 
 
 

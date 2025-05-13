@@ -42,7 +42,13 @@ model = WavePaint(
 
 
 #print(PATH)
-model.load_state_dict(torch.load(PATH))
+
+if torch.cuda.is_available() == False:
+	model.load_state_dict(torch.load(PATH), map_location={'cuda:0': 'cpu'})
+else:
+	model.load_state_dict(torch.load(PATH))
+
+
 print("LOADED GEN WEIGHTS!!!")
 model.eval()
 
