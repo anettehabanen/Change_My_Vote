@@ -40,7 +40,7 @@ audio = "{}/audio.mp3".format(path) # audio file
 video_frames = "{}/new_frames.mp4".format(path) # video without audio
 video_final = "{}/assets".format(os.getcwd()) # video with audio
 
-yolo_model = YOLO("{}/model_weights/YOLO_10_+e200_best.pt".format(os.getcwd()))
+yolo_model = YOLO("{}/model_weights/YOLO11m_e15_img1920_oneClass.pt".format(os.getcwd()))
 
 wavepaint_predict = "{}/Wavepaint/predict.py".format(os.getcwd())
 wavepaint_weights = "{}/model_weights/WavePaint_blocks4_dim128_modules6_bg.pth".format(os.getcwd())
@@ -93,8 +93,8 @@ class ResultState(rx.State):
             self.step_name = steps[0]
             self.progress_value = 0
             self.done = ""
-            self.video = video_path[0]
-            self.image = image_path[0]
+            self.video = video_path[0][2:]
+            self.image = image_path[0][2:]
             self.digit_xmin = xmin
             self.digit_xmax = xmax
             self.digit_ymin = ymin
