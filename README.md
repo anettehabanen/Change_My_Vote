@@ -29,5 +29,7 @@ reflex run
 
 The webpage can be found at http://localhost:3001/
 
+If the port 8001 or 3001 is already in use, go to the [config file](rxconfig.py) and change them to open ports.
+
 ## Example videos
 The folder 'example_videos' has some images and videos of ballots and digits. To test the Reflex app, use these files when asked to upload the image of 3-digit code and a video of a voting ballot. Testing with your own videos/images is also possible.
