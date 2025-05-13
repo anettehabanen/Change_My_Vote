@@ -87,6 +87,7 @@ class ResultState(rx.State):
     show_video: bool = False
     lower_fps: int = 24
 
+
     @rx.background
     async def converting(self, video_path, image_path, xmin, xmax, ymin, ymax, Ax, Ay, Bx, By, Cx, Cy, Dx, Dy):
         async with self:
@@ -133,7 +134,7 @@ class ResultState(rx.State):
             async with self:
                 self.step_name = steps[4]
                 self.progress_value += progress_values[3]
-
+        
         step5_result = self.step5()
         if len(step5_result) != 0 :
             async with self:
@@ -141,7 +142,7 @@ class ResultState(rx.State):
                 self.done = "Here is the new video:"
                 self.result_video = "/final_result.mp4"
                 self.show_video = True
-
+        
 
 
     def step1(self):
@@ -156,6 +157,7 @@ class ResultState(rx.State):
         video_fps.write_videofile(video_path_changed_fps, fps=self.lower_fps)
         save_video_as_frames(video_path_changed_fps, frames_path, id_length)
         return True
+
     
     def step2(self):
         print("Starting step 2")

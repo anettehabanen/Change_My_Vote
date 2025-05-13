@@ -48,7 +48,7 @@ def input_video():
             rx.upload(
                 rx.vstack(
                     rx.text(
-                        "Drag and drop or select files (max. 1 file)"
+                        "Upload a video (max. 1 file)"
                     ),
                     rx.button(
                         "Select File",
