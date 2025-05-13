@@ -132,7 +132,7 @@ def tracking_with_bounding_boxes(model, video_frames_path, video_bboxes_path, tr
         height, width, channels = frame.shape
     
         results = model.track(frame, 
-                              imgsz = 1280,
+                              imgsz = 1920,
                               conf = 0.2,
                               iou = 0.8,
                               persist=True)
