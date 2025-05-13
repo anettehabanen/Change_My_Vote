@@ -8,27 +8,18 @@ git clone https://github.com/anettehabanen/Change_My_Vote
 cd Change_My_Vote
 ```
 
-### Python versions
+### Create Python environment
 
-1. If you have Python version 3.11 or lower
-
-```
-python3 -m venv reflex_venv   # Create an environment
-source reflex_venv/bin/activate   # Activate the environment
-pip install -r requirements_3-11.txt   # Install the requirements
-```
-
-2. If you have Python version 3.12 or higher
-
-```
-python3 -m venv reflex_venv   # Create an environment
-source reflex_venv/bin/activate   # Activate the environment
-pip install -r requirements_3-12.txt   # Install the requirements
-```
-
-To check the Python version:
+NB! This works if you have Python version 3.12 or lower. To check the Python version:
 ```
 python --version
+```
+
+Creating an environment and installing requirements.
+```
+python3 -m venv reflex_venv   # Create an environment
+source reflex_venv/bin/activate   # Activate the environment
+pip install -r requirements.txt   # Install the requirements
 ```
 
 ### Run the project:
