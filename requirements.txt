@@ -9,7 +9,6 @@ fqdn
 isoduration
 jaraco.collections
 jsonpointer
-jupyterlab
 lap
 lpips
 moviepy
