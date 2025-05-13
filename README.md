@@ -12,7 +12,7 @@ cd Change_My_Vote
 
 NB! This works if you have Python version 3.12 or lower. To check the Python version:
 ```
-python --version
+python3 --version
 ```
 
 Creating an environment and installing requirements.
