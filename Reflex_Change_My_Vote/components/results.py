@@ -239,7 +239,6 @@ def results():
                                                         SlidersState.Cy,
                                                         SlidersState.Dx,
                                                         SlidersState.Dy),
-                        disabled=ResultState.show_progres,
                 ),
                 rx.cond(
                     (ResultState.show_progres) & (ResultState.done == "") ,
