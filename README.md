@@ -36,7 +36,7 @@ If the port 8001 or 3001 is already in use, go to the [config file](rxconfig.py)
 
 ### Step 1: input data
 
-In the first page you need to upload a video of a voting ballot and an image of 3-digit code. For this example, upload the image [per_6_img_4.png](example_videos/per_6_img_4.png) and video [per_6_vid_4_filled.png](example_videos/per_6_vid_4_filled.png) from the 'example_videos' subfolder. Then click 'Start configuring'.
+In the first page you need to upload a video of a voting ballot and an image of 3-digit code. For this example, upload the image [per_4_img_2.png](example_videos/per_4_img_2.png) and video [per_6_vid_4_filled.mp4](example_videos/per_6_vid_4_filled.mp4) from the 'example_files' subfolder. Then click 'Start configuring'.
 
 ### Step 2: crop 3-digit code
 On this page you need to crop out the 3-digit code from the image. To do this set the range for x and y coordinates where the digits are. 
@@ -46,9 +46,9 @@ On this page you need to crop out the 3-digit code from the image. To do this se
 3. Click 'Crop image' to see the cropped image of the 3-digit code.
 4. Click 'Next' to move to the next step.
 
-For the image 'per_6_img_4.png' the numbers are:
-* x-coordinates: from 1620 to 2310
-* y-coordinates: from 1480 to 1850
+For the image 'per_4_img_2.png' the numbers are:
+* x-coordinates: from 2150 to 2700
+* y-coordinates: from 1400 to 1700
 
 
 ### Step 3: configure corners
