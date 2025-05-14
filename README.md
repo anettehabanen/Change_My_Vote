@@ -24,7 +24,7 @@ pip install -r requirements.txt   # Install the requirements
 
 ### Run the project:
 ```
-reflex run   # or 'reflex run --env dev'
+reflex run --env dev
 ```
 
 The webpage can be found at http://localhost:3001/
