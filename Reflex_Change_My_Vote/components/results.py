@@ -57,7 +57,7 @@ add_to_boxes_width = 7 # saving little bit bigger boxes than yolo predicts
 steps = ["Part 1: saving video as frames",
          "Part 2: tracking corners",
          "Part 3: getting YOLO predictions",
-         "Part 4: getting and placing Wavepaint predictions, placing new digit",
+         "Part 4: getting and placing Wavepaint predictions, placing new digits",
          "Part 5: creating new video"]
 
 progress_values = [10, 10, 20, 50, 10]
